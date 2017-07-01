@@ -21,3 +21,21 @@ var songData = [
     artist: 'Aaliyah',
   }
 ];
+
+/*$(document).ready(function(){
+   $.ajax({
+      url: 'http://parse.sfm8.hackreactor.com/mytunes/classes/songs',
+      type: "GET",
+  //    data: JSON.stringify(data),
+      contentType: 'application/json',
+      success: function(data){
+        songData = data;
+        console.log(songData);
+      },
+      error: function(data) { console.error('Songs error:', data)}
+    });
+})
+*/
+//http://parse.CAMPUS.hackreactor.com/mytunes/classes/songs
+// make a get request to parse.
+// populate the data
